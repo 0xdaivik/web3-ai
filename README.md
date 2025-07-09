@@ -1,4 +1,5 @@
-# Welcome to your Project
+# Hello, Web3
+Explore the blockchain with me.
 
 ## Project Info
 
