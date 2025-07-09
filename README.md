@@ -1,56 +1,87 @@
-# Hello, Web3
-Explore the blockchain with me.
+# Web3 AI Assistant
 
-## Project Info
+An AI-powered assistant built for Web3 developers, enthusiasts, and builders. This project leverages modern frontend technologies to provide real-time assistance, queries, and prompts tailored for the decentralized world.
 
-This project is built with modern frontend technologies and can be edited and deployed using your preferred development environment.
+🌐 **Live Demo**: [https://web3-ai-six.vercel.app](https://web3-ai-six.vercel.app)
 
-## How can I edit this code?
+---
 
-There are several ways to work with this codebase:
+## 🛠 Tech Stack
 
-### Use your preferred IDE
+- **React**  
+- **TypeScript**  
+- **Tailwind CSS**  
+- **shadcn/ui**  
+- **Vite**  
+- **OpenAI / Gemini API (for AI assistant)**  
+- **Vercel (for deployment)**
 
-If you want to work locally, follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+To run the project locally:
 
-# Step 3: Install the necessary dependencies.
+### 1. Clone the repository
+
+```bash
+git clone <your_git_url>
+cd <project_directory>
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
+```
 
-# Step 4: Start the development server with auto-reloading and instant preview.
+### 3. Add environment variables
+
+Create a `.env` file in the root of the project and add your API key(s):
+
+```
+GEMINI_API_KEY=your_gemini_or_openai_key_here
+```
+
+### 4. Start the dev server
+
+```bash
 npm run dev
 ```
 
-### Edit files directly in GitHub
+---
 
-- Navigate to the desired file(s) in this repository.
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit them.
+## 📦 Deployment
 
-### Use GitHub Codespaces
+This project is deployed on **Vercel**.
 
-- Go to the main page of the repository.
-- Click the "Code" button.
-- Select the "Codespaces" tab.
-- Click "New codespace" to launch an online editing environment.
-- Make changes directly and commit/push them when done.
+To deploy your own version:
 
-## What technologies are used?
+1. Push this project to a GitHub repository.
+2. Visit [https://vercel.com/import](https://vercel.com/import).
+3. Connect your GitHub repo.
+4. Add environment variables in Vercel dashboard.
+5. Click **Deploy**.
 
-This project is built with:
+---
 
-- Vite  
-- TypeScript  
-- React  
-- shadcn-ui  
-- Tailwind CSS  
+## 📁 Project Structure
 
-## How can I deploy this project?
+```
+.
+├── components/       # Reusable UI components
+├── public/           # Static assets
+├── src/
+│   ├── app/          # Main application logic
+│   ├── lib/          # API & utility functions
+│   └── styles/       # Tailwind config and styles
+├── .env              # API keys and secrets (not committed)
+├── package.json      # Project metadata and scripts
+└── vite.config.ts    # Vite configuration
+```
 
-You can deploy this project using any platform that supports static site hosting or Node.js apps (e.g., Vercel, Netlify, Render, etc.). Make sure to follow their deployment instructions based on the stack used.
+---
+
+## 📄 License
+
+MIT License © 2025 Daivik Soni
