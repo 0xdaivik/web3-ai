@@ -6,6 +6,12 @@ An AI-powered assistant built for Web3 developers, enthusiasts, and builders. Th
 
 ---
 
+## 🖼️ Screenshots
+
+<img width="1404" alt="Screenshot 2025-07-09 at 7 24 01 PM" src="https://github.com/user-attachments/assets/5c343783-02d4-4ea6-becf-1f39f098e9e3" />
+
+---
+
 ## 🛠 Tech Stack
 
 - **React**  
