@@ -10,17 +10,17 @@ const NETWORKS = {
   ethereum: {
     name: 'Ethereum Mainnet',
     apiUrl: 'https://api.etherscan.io/api',
-    apiKey: 'AIFJVZRQCH6PZ7N4JFZAZAJIMYXBIMIG9I'
+    apiKey: ''
   },
   sepolia: {
     name: 'Sepolia Testnet',
     apiUrl: 'https://api-sepolia.etherscan.io/api',
-    apiKey: 'AIFJVZRQCH6PZ7N4JFZAZAJIMYXBIMIG9I'
+    apiKey: ''
   },
   holesky: {
     name: 'Holesky Testnet',
     apiUrl: 'https://api-holesky.etherscan.io/api',
-    apiKey: 'AIFJVZRQCH6PZ7N4JFZAZAJIMYXBIMIG9I'
+    apiKey: ''
   }
 };
 export const LiveBlockHeight = () => {
